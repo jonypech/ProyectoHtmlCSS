@@ -1,0 +1,133 @@
+body{
+    font-family: Arial;
+    font-size: 16px;
+    color: #1A1A22;
+    text-align: center;
+}
+
+#header{
+    height: 160px;
+    background-color: #f4f6f7;
+    margin-bottom: 2.5px;
+}
+
+#menu{
+    height: auto;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#barra_lateral, #contenido{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#barra_lateral{
+    background-color: rgba(11, 11, 14, 0.88);
+    color: antiquewhite;
+    width: 20%;
+    min-height: 850px;
+}
+
+#contenido{
+    background-color: rgba(117, 117, 147, 0.75);
+    text-align: justify;
+    padding-left: 16px; 
+    padding-right: 16px;
+    width: 77%;
+    min-height: 300px;
+}
+
+#pie{
+    background-color: #203b48cc;
+    border-top: 1px solid #cccccc;
+    min-height: 100px;
+    margin-top: 5px;
+}
+
+#titulo{
+    color:goldenrod;
+    font-family: Tahoma;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.letra_color{
+    color: steelblue;
+}
+
+#buscar{
+    box-shadow: 1px 1px 2px #cc4c6c;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    padding-right: 20px;
+}
+
+#btn_buscar{
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+#buscador{
+    width: 40%;
+}
+
+#logotipo{
+   padding: 10px 5px
+}
+
+#titulo, #logotipo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+table{
+    padding-bottom: 10px;
+}
+
+thead tr{
+    background-color: rgb(155, 195, 215);
+}
+
+.primero, .segundo, .tercero{
+    font-weight: bold;
+    background-color: rgb(155,195,215);
+}
+
+#info{
+    color: #B9B9C4;
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#barra_lateral ul li a {
+    display: inline-block;
+    color:#fff;
+    background: #000;
+    padding: 35px 55px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; 
+}
+
+#barra_lateral ul li .icon-facebook {background:#3b5998;}
+
+#barra_lateral ul li .icon-twitter {background: #00abf0;}
+
+#barra_lateral ul li .icon-googleplus {background: #d95232;}
+
+#barra_lateral ul li .icon-pinterest {background: #ae181f;}
+
+#barra_lateral ul li .icon-mail {background: #666666;}
+
+#barra_lateral ul li a:hover {
+		background: #000; 
+		padding: 30px 40px; 
+}
